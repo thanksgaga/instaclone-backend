@@ -1,0 +1,39 @@
+{
+  "name": "appollo3",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server",
+    "migrate": "npx prisma migrate dev --preview-feature",
+    "studio": "npx prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.5.3",
+    "@graphql-tools/merge": "^8.2.1",
+    "@graphql-tools/schema": "^8.3.1",
+    "@prisma/client": "^3.8.1",
+    "apollo-server": "^3.6.2",
+    "dotenv": "^14.3.0",
+    "graphql": "^16.2.0",
+    "graphql-tools": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15",
+    "prisma": "^3.8.1"
+  },
+  "description": "Instaclone Backend.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanksgaga/nomadcoffee-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thanksgaga/nomadcoffee-backend/issues"
+  },
+  "homepage": "https://github.com/thanksgaga/nomadcoffee-backend#readme"
+}
